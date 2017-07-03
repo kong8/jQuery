@@ -1,0 +1,86 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.v_show{
+	width: 480px;
+	height: 200px;
+	border: 1px solid #0aa;
+	margin: 20px;
+}
+.v_caption{
+	width: 480px;
+	height: 35px;
+	background: #0aa;
+	position: relative;
+}
+.cartoon{
+	font: 20px 黑体;
+    color: #fff;
+    padding: 5px;
+    float: left;
+}
+.hightlight_tip{
+	float: left;
+	width: 70px;
+	height: 20px;
+	margin-top:15px;
+}
+.hightlight_tip span {
+	background: #ccc;
+	margin: 2px;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+    float: left;
+}
+.hightlight_tip .current {
+	background: #0a0;
+}
+.change_btn span{
+	width:30px;
+	height: 20px;
+	background: #eee;
+	text-align: center;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	border-radius: 5px;
+	cursor: pointer;    /*鼠标样式：手指*/
+}
+.v_caption a {
+	margin-top: 12px;
+	margin-right: 10px;
+	text-decoration: none;
+	float: right;
+	font: 14px 宋体;
+	font-style: italic;
+	color: #fff;
+}
+.v_content{
+	position: relative;
+	width:480px;
+	height:150px;
+	overflow: hidden;    /*超出容器大小部分隐藏*/
+}
+.v_content_list {
+	position:absolute;
+	width: 2000px;
+}
+.v_content li {
+	list-style: none;
+	float: left;
+	margin:20px 10px;
+}
+.v_content a {
+	text-decoration: none;
+	color: #555;
+	font:15px 黑体;
+    
+}
+.v_content span,em{
+	font: 12px 黑体;
+	color: #555;
+
+}
