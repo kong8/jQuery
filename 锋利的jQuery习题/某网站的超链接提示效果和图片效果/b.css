@@ -1,0 +1,15 @@
+        ul {
+    	    border: 0px;
+    	    position: absolute;
+        }
+        li {
+    	    list-style: none;
+    	    float: left;
+    	    margin: 20px 40px;
+        }
+        a {
+    	    text-decoration: none;
+        }
+        #tooltip{
+            position: absolute;
+        }

@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<meta charset="utf-8"/>
-	<style type="text/css">
-        ul {
-    	    border: 0px;
-    	    position: absolute;
-        }
-        li {
-    	    list-style: none;
-    	    float: left;
-    	    margin: 20px 40px;
-        }
-        a {
-    	    text-decoration: none;
-        }
-        #tooltip{
-            position: absolute;
-        }
-	</style>
-	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript">
-	    $(function(){
+$(function(){
             var x = 10;
             var y = 20;
         	$("a.tooltip").mouseover(function(e){
@@ -51,15 +27,3 @@
             })
             //让提示效果跟随鼠标移动而移动
         })
-   
-	</script>
-</head>
-<body>
-    <ul>
-        <li><a href="images/1_bigger.jpg" class="tooltip" title="花花 flowers"><img src="images/1.jpg" alt="花花 flowers" /></a></li>
-        <li><a href="images/2_bigger.jpg" class="tooltip" title="声音 sing"><img src="images/2.jpg" alt="声音 sing" /></a></li>
-        <li><a href="images/3_bigger.jpg" class="tooltip" title="萌妹 meng"><img src="images/3.jpg" alt="萌妹 meng" /></a></li>
-        <li><a href="images/4_bigger.jpg" class="tooltip" title="汉子 men"><img src="images/4.jpg" alt="花花 men" /></a></li>
-    </ul>
-</body>
-</html>

@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<meta charset="utf-8">
-    <style type="text/css">
-        #tooltip{
-            position: absolute;
-        }
-    </style>
-	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript">
-        $(function(){
+$(function(){
             var x = 10;
             var y = 20;
         	$("a.tooltip").mouseover(function(e){
@@ -38,12 +26,3 @@
             })
             //让提示效果跟随鼠标移动而移动
         })
-	</script>
-</head>
-<body>
-    <p><a href="#" class="tooltip" title="这是我的超级链接提示1.">提示1.</a></p>
-    <p><a href="#" class="tooltip" title="这是我的超级链接提示2.">提示2.</a></p>
-    <p><a href="#" title="这是自带提示1.">自带提示1.</a></p>
-    <p><a href="#" title="这是自带提示2.">自带提示2.</a></p>
-</body>
-</html>
